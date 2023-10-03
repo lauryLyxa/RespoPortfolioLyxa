@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat:wght@400;600;900&display=swap");
+:root {
+  --bg-color-blue: #2F466C;
+  --white: #F6F4F3; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--white); }
+
+hr {
+  width: 100%;
+  color: var(--bg-color-blue); }
+
+button {
+  margin: 20px 0px;
+  padding: 10px;
+  border: none;
+  background-color: var(--bg-color-blue);
+  border-radius: 50px;
+  box-shadow: var(--bg-color-blue) 0px 2px 7px 1px; }
+  button a {
+    margin: 30px 20px;
+    text-decoration: none;
+    color: #F6F4F3;
+    font-weight: 700; }
+
+header {
+  position: relative;
+  height: 13vh; }
+  header nav {
+    width: 100vw;
+    position: fixed;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column; }
+    header nav .container-navbar {
+      display: flex;
+      align-items: center; }
+      header nav .container-navbar .logo-nav {
+        width: 20%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; }
+        header nav .container-navbar .logo-nav img {
+          color: var(--bg-color-blue);
+          width: 45px; }
+        header nav .container-navbar .logo-nav h1 {
+          margin: 20px;
+          color: var(--bg-color-blue); }
+      header nav .container-navbar .navbar ul {
+        width: 60vw;
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; }
+        header nav .container-navbar .navbar ul li {
+          list-style: none; }
+          header nav .container-navbar .navbar ul li a {
+            text-decoration: none;
+            color: var(--bg-color-blue);
+            font-weight: 600; }
+    header nav .separation {
+      width: 90vw;
+      display: flex;
+      justify-content: center; }
+      header nav .separation hr {
+        width: 92%; }
+
+.container-title {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column; }
+  .container-title h3 {
+    color: var(--bg-color-blue);
+    margin: 10px 0 20px 0;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif; }
+  .container-title p {
+    width: 70%; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  main .text-welcome {
+    text-align: center;
+    font-size: 120px;
+    font-weight: 800;
+    font-family: 'Fuggles', cursive; }
+    main .text-welcome h2 {
+      color: var(--bg-color-blue); }
+  main .container-section-perpa {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    main .container-section-perpa .perpa-left {
+      color: var(--bg-color-blue); }
+      main .container-section-perpa .perpa-left h2 {
+        font-size: 26px;
+        font-weight: 900; }
+      main .container-section-perpa .perpa-left h3 {
+        font-weight: 600;
+        font-size: 20px; }
+      main .container-section-perpa .perpa-left .reseau-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        main .container-section-perpa .perpa-left .reseau-button .reseau-icon-lien {
+          width: 20%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between; }
+          main .container-section-perpa .perpa-left .reseau-button .reseau-icon-lien a img {
+            width: 35px;
+            height: 35px;
+            color: var(--bg-color-blue); }
+    main .container-section-perpa .perpa-right {
+      width: 70%;
+      display: flex;
+      justify-content: flex-end; }
+      main .container-section-perpa .perpa-right img {
+        width: 80%; }
+  main .container-section-propos {
+    width: 85%; }
+    main .container-section-propos hr {
+      margin: 20px 0px; }
+    main .container-section-propos .container-propos {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+      main .container-section-propos .container-propos .propos-left {
+        width: 40%;
+        text-align: center; }
+        main .container-section-propos .container-propos .propos-left img {
+          width: 90%; }
+        main .container-section-propos .container-propos .propos-left p {
+          font-weight: 600;
+          margin: 5px; }
+      main .container-section-propos .container-propos .propos-right {
+        width: 60%; }
+        main .container-section-propos .container-propos .propos-right .bold-text {
+          font-weight: 600; }
+        main .container-section-propos .container-propos .propos-right p {
+          margin: 10px 5px;
+          font-style: italic; }
+        main .container-section-propos .container-propos .propos-right button {
+          margin: 5px 0; }
+  main .container-section-rea {
+    width: 85%; }
+    main .container-section-rea .container-title {
+      justify-content: space-between;
+      height: 28vh; }
+      main .container-section-rea .container-title p {
+        margin: 0px 0px 23px 0px; }
+    main .container-section-rea .section-slider {
+      display: flex;
+      align-items: center; }
+      main .container-section-rea .section-slider .rea-left img {
+        width: 90%;
+        height: 50%; }
+
+/*# sourceMappingURL=style.css.map */
